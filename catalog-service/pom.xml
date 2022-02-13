@@ -14,7 +14,11 @@
 	<name>catalog-service</name>
 	<description>catalog-service project</description>
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>11</java.version>
+		<spring-cloud.version>Finchley.M8</spring-cloud.version>
+		<!--<spring-cloud.version>Edgware.RELEASE</spring-cloud.version>-->
 	</properties>
 	<dependencies>
 		<dependency>
@@ -50,6 +54,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 	</dependencies>
 
